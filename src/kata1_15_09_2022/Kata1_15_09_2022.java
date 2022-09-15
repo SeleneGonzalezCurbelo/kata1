@@ -1,11 +1,13 @@
 package kata1_15_09_2022;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Kata1_15_09_2022 {
 
     public static void main(String[] args) {
-        Person person = new Person("Zacarias", new Date(49,10,25));
-        System.out.println(person.getName() + " tiene " + person.getAge() + " años ");
+       LocalDate date = LocalDate.of(1949, 9, 24);
+       
+       Person person = new Person("Blas", date);
+       System.out.println(person.getName() + " tiene " + person.getAge() + " años ");
     }
 }
