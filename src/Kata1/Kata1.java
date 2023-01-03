@@ -1,8 +1,8 @@
-package kata1_15_09_2022;
+package Kata1;
 
 import java.time.LocalDate;
 
-public class Kata1_15_09_2022 {
+public class Kata1 {
 
     public static void main(String[] args) {
        LocalDate date = LocalDate.of(1949, 9, 24);

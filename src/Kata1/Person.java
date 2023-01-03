@@ -1,4 +1,4 @@
-package kata1_15_09_2022;
+package Kata1;
 
 import java.time.LocalDate;
 import java.time.Period;
